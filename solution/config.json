@@ -1,6 +1,6 @@
 {
   "provider": "openai",
-  "model": "qwen3.5-flash",
+  "model": "qwen3.5-397b-a17b",
   "model_price_tier": "premium",
   "max_steps": 12,
   "loop_guard": true,
