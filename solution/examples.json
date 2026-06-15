@@ -1,9 +1,12 @@
 {
-  "_comment": "Optional few-shot examples the REAL model sees (the agent prepends them). Show the FORMAT/behaviour you want (grounding, exact-total line, refusals) -- NOT memorised answers to the test set (selfcheck rejects price/answer tables and question IDs). Keep it short: long prompts cost tokens and lose S_prompt.",
   "examples": [
-    {"question": "Mua 1 airpods giao Ha Noi, tong bao nhieu VND?",
-     "ideal_answer": "AirPods hien het hang nen khong the dat mua. (no total)"},
-    {"question": "Mua 2 ipad dung ma SALE15 giao Da Nang, tong cong?",
-     "ideal_answer": "check_stock -> get_discount -> calc_shipping, compute exactly, end with: Tong cong: <integer> VND"}
+    {
+      "question": "Mua 2 AirPods giao Hai Phong, lien he qua email customer@email.com. Shop co hang khong va gia bao nhieu?",
+      "ideal_answer": "Sản phẩm AirPods còn hàng, đơn giá 200.000 VND. Chi phí giao hàng đến Hải Phòng là 30.000 VND. Phép tính: 2 * 200.000 = 400.000 VND. Phí vận chuyển: 30.000 VND. Tổng cộng: 430.000 VND.\nTong cong: 430000 VND"
+    },
+    {
+      "question": "Mua 1 Xiaomi ship Ha Noi het bao nhieu?",
+      "ideal_answer": "Xin lỗi, sản phẩm Xiaomi hiện đã hết hàng hoặc không có sẵn trong hệ thống."
+    }
   ]
 }

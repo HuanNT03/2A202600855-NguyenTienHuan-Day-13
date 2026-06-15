@@ -1,0 +1,21 @@
+{
+  "team": "huan",
+  "phase": "private",
+  "headline": 87.53,
+  "sub": {
+    "correct": 0.7375,
+    "quality": 0.8363,
+    "error": 0.975,
+    "latency": 0.5358,
+    "cost": 0.0,
+    "drift": 0.0667,
+    "prompt": 0.7814
+  },
+  "diag_f1": 0.973,
+  "n": 80,
+  "n_correct": 59,
+  "judge_mode": "offline",
+  "weights_hash": "e81a8ed58d93",
+  "key_hash": "7e3905b75db0",
+  "sig": "cbf74e8a7dcd58a98cf6242baf744f8ae219b5cffba5c0f4d71379d6f7455cdd"
+}

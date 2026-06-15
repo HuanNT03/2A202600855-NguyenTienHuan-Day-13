@@ -1,12 +1,116 @@
 {
-  "team": "TODO-team-name",
+  "team": "huan",
   "schema_version": 1,
   "findings": [
     {
+      "fault_class": "error_spike",
+      "evidence": {
+        "metric": "error_rate",
+        "observed": "0.18",
+        "trace_ids": ["prv-002", "prv-003", "prv-004", "prv-005"]
+      },
+      "root_cause": "The shipping simulator has a high intermittent error rate (18%) on tool calls.",
+      "suggested_fix": "Enable retries in config.json with appropriate max attempts and backoff."
+    },
+    {
       "fault_class": "latency_spike",
-      "evidence": {"metric": "latency_p95_ms", "observed": "TODO from your telemetry", "trace_ids": []},
-      "root_cause": "TODO: what config knob or behavior causes it?",
-      "suggested_fix": "TODO: config change and/or wrapper mitigation"
+      "evidence": {
+        "metric": "latency_p95_ms",
+        "observed": "11954",
+        "trace_ids": ["prv-016", "prv-068", "prv-038", "prv-003", "prv-035"]
+      },
+      "root_cause": "Caching was disabled and self_consistency was set to 3 in baseline config, causing slow parallel API calls.",
+      "suggested_fix": "Enable caching and set self_consistency to 1 or 2."
+    },
+    {
+      "fault_class": "cost_blowup",
+      "evidence": {
+        "metric": "cost_usd",
+        "observed": "0.035",
+        "trace_ids": ["prv-055", "prv-011", "prv-023", "prv-025", "prv-038"]
+      },
+      "root_cause": "verbose_system is set to true in config, which dumps the entire product catalog into the prompt.",
+      "suggested_fix": "Set verbose_system to false in config.json."
+    },
+    {
+      "fault_class": "quality_drift",
+      "evidence": {
+        "metric": "drift",
+        "observed": "0.66",
+        "trace_ids": ["prv-001", "prv-002", "prv-003"]
+      },
+      "root_cause": "session_drift_rate in config.json causes context corruption and quality degradation.",
+      "suggested_fix": "Adjust session_drift_rate and set self_consistency to steady the answers."
+    },
+    {
+      "fault_class": "infinite_loop",
+      "evidence": {
+        "metric": "steps",
+        "observed": "12",
+        "trace_ids": ["prv-069"]
+      },
+      "root_cause": "Lack of loop detection causes the agent to get stuck in repeated tool calls.",
+      "suggested_fix": "Enable loop_guard: true and set a reasonable max_steps in config.json."
+    },
+    {
+      "fault_class": "pii_leak",
+      "evidence": {
+        "metric": "pii_redacted_count",
+        "observed": "1",
+        "trace_ids": ["prv-020", "prv-025", "prv-038", "prv-040", "prv-042", "prv-043", "prv-044", "prv-053", "prv-054"]
+      },
+      "root_cause": "The agent repeats the customer email and phone number due to weak system prompt rules.",
+      "suggested_fix": "Enable redact_pii in config.json and add strict PII redaction rules in prompt.txt."
+    },
+    {
+      "fault_class": "prompt_injection",
+      "evidence": {
+        "metric": "correctness",
+        "observed": "0.625",
+        "trace_ids": ["prv-006", "prv-011", "prv-014", "prv-018", "prv-023", "prv-024", "prv-025", "prv-029", "prv-035", "prv-038"]
+      },
+      "root_cause": "Order notes contain malicious price overrides which the agent obeys.",
+      "suggested_fix": "Sanitize order notes in wrapper.py and rewrite system prompt to ignore user-supplied prices."
+    },
+    {
+      "fault_class": "fabrication",
+      "evidence": {
+        "metric": "refusal",
+        "observed": "1",
+        "trace_ids": ["prv-028", "prv-040", "prv-043", "prv-044", "prv-045", "prv-075"]
+      },
+      "root_cause": "The agent invents totals for out-of-stock items instead of refusing properly.",
+      "suggested_fix": "Rewrite system prompt to strictly refuse and give no total if check_stock returns out of stock."
+    },
+    {
+      "fault_class": "arithmetic_error",
+      "evidence": {
+        "metric": "arithmetic_error",
+        "observed": "1",
+        "trace_ids": ["prv-001", "prv-002", "prv-003", "prv-004", "prv-005"]
+      },
+      "root_cause": "The agent makes mistakes in discount and shipping fee calculations.",
+      "suggested_fix": "Instruct the agent to perform exact step-by-step arithmetic and check its work."
+    },
+    {
+      "fault_class": "tool_overuse",
+      "evidence": {
+        "metric": "tools_used",
+        "observed": "3",
+        "trace_ids": ["prv-001", "prv-002", "prv-003", "prv-004", "prv-005"]
+      },
+      "root_cause": "The agent calls tools redundantly or calls tools that are not needed.",
+      "suggested_fix": "Enforce strict tool rules and tool budget in config.json and prompt.txt."
+    },
+    {
+      "fault_class": "tool_failure",
+      "evidence": {
+        "metric": "error",
+        "observed": "1",
+        "trace_ids": ["prv-002", "prv-067"]
+      },
+      "root_cause": "The agent gets errors from the shipping tool for certain destinations.",
+      "suggested_fix": "Handle shipping errors gracefully in wrapper.py and prompt.txt."
     }
   ]
 }

@@ -1,0 +1,1409 @@
+[
+  {
+    "error": null,
+    "latency_ms": 8517,
+    "model": "qwen3.5-flash",
+    "pii": false,
+    "provider": "openai",
+    "steps": 2,
+    "tools_used": [
+      "check_stock",
+      "calc_shipping"
+    ],
+    "usage": {
+      "completion_tokens": 743,
+      "prompt_tokens": 37104,
+      "total_tokens": 37847
+    }
+  },
+  {
+    "error": null,
+    "latency_ms": 9807,
+    "model": "qwen3.5-flash",
+    "pii": false,
+    "provider": "openai",
+    "steps": 3,
+    "tools_used": [
+      "check_stock",
+      "get_discount",
+      "calc_shipping"
+    ],
+    "usage": {
+      "completion_tokens": 1041,
+      "prompt_tokens": 51984,
+      "total_tokens": 53025
+    }
+  },
+  {
+    "error": null,
+    "latency_ms": 11954,
+    "model": "qwen3.5-flash",
+    "pii": false,
+    "provider": "openai",
+    "steps": 2,
+    "tools_used": [
+      "check_stock",
+      "get_discount",
+      "calc_shipping"
+    ],
+    "usage": {
+      "completion_tokens": 1182,
+      "prompt_tokens": 41768,
+      "total_tokens": 42950
+    }
+  },
+  {
+    "error": null,
+    "latency_ms": 8656,
+    "model": "qwen3.5-flash",
+    "pii": false,
+    "provider": "openai",
+    "steps": 2,
+    "tools_used": [
+      "check_stock",
+      "get_discount",
+      "calc_shipping"
+    ],
+    "usage": {
+      "completion_tokens": 655,
+      "prompt_tokens": 36144,
+      "total_tokens": 36799
+    }
+  },
+  {
+    "error": null,
+    "latency_ms": 6676,
+    "model": "qwen3.5-flash",
+    "pii": false,
+    "provider": "openai",
+    "steps": 2,
+    "tools_used": [
+      "check_stock",
+      "get_discount",
+      "calc_shipping"
+    ],
+    "usage": {
+      "completion_tokens": 620,
+      "prompt_tokens": 36000,
+      "total_tokens": 36620
+    }
+  },
+  {
+    "error": null,
+    "latency_ms": 7104,
+    "model": "qwen3.5-flash",
+    "pii": false,
+    "provider": "openai",
+    "steps": 2,
+    "tools_used": [
+      "check_stock",
+      "get_discount",
+      "calc_shipping"
+    ],
+    "usage": {
+      "completion_tokens": 745,
+      "prompt_tokens": 40712,
+      "total_tokens": 41457
+    }
+  },
+  {
+    "error": null,
+    "latency_ms": 6311,
+    "model": "qwen3.5-flash",
+    "pii": false,
+    "provider": "openai",
+    "steps": 2,
+    "tools_used": [
+      "check_stock",
+      "get_discount",
+      "calc_shipping"
+    ],
+    "usage": {
+      "completion_tokens": 707,
+      "prompt_tokens": 37040,
+      "total_tokens": 37747
+    }
+  },
+  {
+    "error": null,
+    "latency_ms": 3208,
+    "model": "qwen3.5-flash",
+    "pii": false,
+    "provider": "openai",
+    "steps": 1,
+    "tools_used": [
+      "check_stock",
+      "get_discount"
+    ],
+    "usage": {
+      "completion_tokens": 256,
+      "prompt_tokens": 22744,
+      "total_tokens": 23000
+    }
+  },
+  {
+    "error": null,
+    "latency_ms": 6544,
+    "model": "qwen3.5-flash",
+    "pii": false,
+    "provider": "openai",
+    "steps": 2,
+    "tools_used": [
+      "check_stock",
+      "get_discount",
+      "calc_shipping"
+    ],
+    "usage": {
+      "completion_tokens": 677,
+      "prompt_tokens": 35984,
+      "total_tokens": 36661
+    }
+  },
+  {
+    "error": null,
+    "latency_ms": 6706,
+    "model": "qwen3.5-flash",
+    "pii": false,
+    "provider": "openai",
+    "steps": 2,
+    "tools_used": [
+      "check_stock",
+      "get_discount",
+      "calc_shipping"
+    ],
+    "usage": {
+      "completion_tokens": 713,
+      "prompt_tokens": 36256,
+      "total_tokens": 36969
+    }
+  },
+  {
+    "error": null,
+    "latency_ms": 9045,
+    "model": "qwen3.5-flash",
+    "pii": false,
+    "provider": "openai",
+    "steps": 3,
+    "tools_used": [
+      "check_stock",
+      "get_discount",
+      "calc_shipping"
+    ],
+    "usage": {
+      "completion_tokens": 986,
+      "prompt_tokens": 59472,
+      "total_tokens": 60458
+    }
+  },
+  {
+    "error": null,
+    "latency_ms": 7488,
+    "model": "qwen3.5-flash",
+    "pii": false,
+    "provider": "openai",
+    "steps": 3,
+    "tools_used": [
+      "check_stock",
+      "get_discount",
+      "calc_shipping"
+    ],
+    "usage": {
+      "completion_tokens": 573,
+      "prompt_tokens": 48936,
+      "total_tokens": 49509
+    }
+  },
+  {
+    "error": null,
+    "latency_ms": 5798,
+    "model": "qwen3.5-flash",
+    "pii": false,
+    "provider": "openai",
+    "steps": 2,
+    "tools_used": [
+      "check_stock",
+      "calc_shipping"
+    ],
+    "usage": {
+      "completion_tokens": 573,
+      "prompt_tokens": 35696,
+      "total_tokens": 36269
+    }
+  },
+  {
+    "error": null,
+    "latency_ms": 8847,
+    "model": "qwen3.5-flash",
+    "pii": false,
+    "provider": "openai",
+    "steps": 2,
+    "tools_used": [
+      "check_stock",
+      "get_discount",
+      "calc_shipping"
+    ],
+    "usage": {
+      "completion_tokens": 939,
+      "prompt_tokens": 42480,
+      "total_tokens": 43419
+    }
+  },
+  {
+    "error": null,
+    "latency_ms": 8878,
+    "model": "qwen3.5-flash",
+    "pii": false,
+    "provider": "openai",
+    "steps": 1,
+    "tools_used": [
+      "check_stock"
+    ],
+    "usage": {
+      "completion_tokens": 588,
+      "prompt_tokens": 22784,
+      "total_tokens": 23372
+    }
+  },
+  {
+    "error": null,
+    "latency_ms": 14691,
+    "model": "qwen3.5-flash",
+    "pii": false,
+    "provider": "openai",
+    "steps": 1,
+    "tools_used": [
+      "check_stock",
+      "get_discount",
+      "calc_shipping"
+    ],
+    "usage": {
+      "completion_tokens": 2234,
+      "prompt_tokens": 23856,
+      "total_tokens": 26090
+    }
+  },
+  {
+    "error": null,
+    "latency_ms": 4460,
+    "model": "qwen3.5-flash",
+    "pii": false,
+    "provider": "openai",
+    "steps": 1,
+    "tools_used": [
+      "check_stock",
+      "get_discount"
+    ],
+    "usage": {
+      "completion_tokens": 508,
+      "prompt_tokens": 23272,
+      "total_tokens": 23780
+    }
+  },
+  {
+    "error": null,
+    "latency_ms": 7339,
+    "model": "qwen3.5-flash",
+    "pii": false,
+    "provider": "openai",
+    "steps": 2,
+    "tools_used": [
+      "check_stock",
+      "get_discount",
+      "calc_shipping"
+    ],
+    "usage": {
+      "completion_tokens": 915,
+      "prompt_tokens": 40408,
+      "total_tokens": 41323
+    }
+  },
+  {
+    "error": null,
+    "latency_ms": 4878,
+    "model": "qwen3.5-flash",
+    "pii": false,
+    "provider": "openai",
+    "steps": 2,
+    "tools_used": [
+      "check_stock",
+      "get_discount",
+      "calc_shipping"
+    ],
+    "usage": {
+      "completion_tokens": 438,
+      "prompt_tokens": 36224,
+      "total_tokens": 36662
+    }
+  },
+  {
+    "error": null,
+    "latency_ms": 10465,
+    "model": "qwen3.5-flash",
+    "pii": true,
+    "provider": "openai",
+    "steps": 2,
+    "tools_used": [
+      "check_stock",
+      "calc_shipping"
+    ],
+    "usage": {
+      "completion_tokens": 752,
+      "prompt_tokens": 37680,
+      "total_tokens": 38432
+    }
+  },
+  {
+    "error": null,
+    "latency_ms": 5837,
+    "model": "qwen3.5-flash",
+    "pii": false,
+    "provider": "openai",
+    "steps": 2,
+    "tools_used": [
+      "check_stock",
+      "get_discount",
+      "calc_shipping"
+    ],
+    "usage": {
+      "completion_tokens": 630,
+      "prompt_tokens": 36040,
+      "total_tokens": 36670
+    }
+  },
+  {
+    "error": null,
+    "latency_ms": 9136,
+    "model": "qwen3.5-flash",
+    "pii": false,
+    "provider": "openai",
+    "steps": 2,
+    "tools_used": [
+      "check_stock",
+      "get_discount",
+      "calc_shipping",
+      "calc_shipping"
+    ],
+    "usage": {
+      "completion_tokens": 939,
+      "prompt_tokens": 39864,
+      "total_tokens": 40803
+    }
+  },
+  {
+    "error": null,
+    "latency_ms": 8643,
+    "model": "qwen3.5-flash",
+    "pii": false,
+    "provider": "openai",
+    "steps": 3,
+    "tools_used": [
+      "check_stock",
+      "get_discount",
+      "calc_shipping"
+    ],
+    "usage": {
+      "completion_tokens": 921,
+      "prompt_tokens": 57168,
+      "total_tokens": 58089
+    }
+  },
+  {
+    "error": null,
+    "latency_ms": 8782,
+    "model": "qwen3.5-flash",
+    "pii": false,
+    "provider": "openai",
+    "steps": 2,
+    "tools_used": [
+      "check_stock",
+      "get_discount",
+      "calc_shipping"
+    ],
+    "usage": {
+      "completion_tokens": 971,
+      "prompt_tokens": 40600,
+      "total_tokens": 41571
+    }
+  },
+  {
+    "error": null,
+    "latency_ms": 9834,
+    "model": "qwen3.5-flash",
+    "pii": true,
+    "provider": "openai",
+    "steps": 3,
+    "tools_used": [
+      "check_stock",
+      "get_discount",
+      "calc_shipping"
+    ],
+    "usage": {
+      "completion_tokens": 1080,
+      "prompt_tokens": 56968,
+      "total_tokens": 58048
+    }
+  },
+  {
+    "error": null,
+    "latency_ms": 5926,
+    "model": "qwen3.5-flash",
+    "pii": false,
+    "provider": "openai",
+    "steps": 2,
+    "tools_used": [
+      "check_stock",
+      "get_discount",
+      "calc_shipping"
+    ],
+    "usage": {
+      "completion_tokens": 685,
+      "prompt_tokens": 35984,
+      "total_tokens": 36669
+    }
+  },
+  {
+    "error": null,
+    "latency_ms": 7465,
+    "model": "qwen3.5-flash",
+    "pii": false,
+    "provider": "openai",
+    "steps": 2,
+    "tools_used": [
+      "check_stock",
+      "get_discount",
+      "calc_shipping",
+      "calc_shipping"
+    ],
+    "usage": {
+      "completion_tokens": 652,
+      "prompt_tokens": 38080,
+      "total_tokens": 38732
+    }
+  },
+  {
+    "error": null,
+    "latency_ms": 3703,
+    "model": "qwen3.5-flash",
+    "pii": false,
+    "provider": "openai",
+    "steps": 1,
+    "tools_used": [
+      "check_stock",
+      "get_discount"
+    ],
+    "usage": {
+      "completion_tokens": 302,
+      "prompt_tokens": 22688,
+      "total_tokens": 22990
+    }
+  },
+  {
+    "error": null,
+    "latency_ms": 7636,
+    "model": "qwen3.5-flash",
+    "pii": false,
+    "provider": "openai",
+    "steps": 2,
+    "tools_used": [
+      "check_stock",
+      "calc_shipping"
+    ],
+    "usage": {
+      "completion_tokens": 1012,
+      "prompt_tokens": 40848,
+      "total_tokens": 41860
+    }
+  },
+  {
+    "error": null,
+    "latency_ms": 3697,
+    "model": "qwen3.5-flash",
+    "pii": false,
+    "provider": "openai",
+    "steps": 1,
+    "tools_used": [
+      "check_stock",
+      "get_discount"
+    ],
+    "usage": {
+      "completion_tokens": 315,
+      "prompt_tokens": 22568,
+      "total_tokens": 22883
+    }
+  },
+  {
+    "error": null,
+    "latency_ms": 6782,
+    "model": "qwen3.5-flash",
+    "pii": false,
+    "provider": "openai",
+    "steps": 2,
+    "tools_used": [
+      "check_stock",
+      "calc_shipping"
+    ],
+    "usage": {
+      "completion_tokens": 411,
+      "prompt_tokens": 35640,
+      "total_tokens": 36051
+    }
+  },
+  {
+    "error": null,
+    "latency_ms": 6843,
+    "model": "qwen3.5-flash",
+    "pii": false,
+    "provider": "openai",
+    "steps": 2,
+    "tools_used": [
+      "check_stock",
+      "calc_shipping"
+    ],
+    "usage": {
+      "completion_tokens": 652,
+      "prompt_tokens": 36376,
+      "total_tokens": 37028
+    }
+  },
+  {
+    "error": null,
+    "latency_ms": 7236,
+    "model": "qwen3.5-flash",
+    "pii": false,
+    "provider": "openai",
+    "steps": 2,
+    "tools_used": [
+      "check_stock",
+      "get_discount",
+      "calc_shipping"
+    ],
+    "usage": {
+      "completion_tokens": 717,
+      "prompt_tokens": 36192,
+      "total_tokens": 36909
+    }
+  },
+  {
+    "error": null,
+    "latency_ms": 6834,
+    "model": "qwen3.5-flash",
+    "pii": false,
+    "provider": "openai",
+    "steps": 2,
+    "tools_used": [
+      "check_stock",
+      "get_discount",
+      "calc_shipping"
+    ],
+    "usage": {
+      "completion_tokens": 719,
+      "prompt_tokens": 36128,
+      "total_tokens": 36847
+    }
+  },
+  {
+    "error": null,
+    "latency_ms": 10861,
+    "model": "qwen3.5-flash",
+    "pii": false,
+    "provider": "openai",
+    "steps": 2,
+    "tools_used": [
+      "check_stock",
+      "get_discount",
+      "calc_shipping"
+    ],
+    "usage": {
+      "completion_tokens": 1544,
+      "prompt_tokens": 44352,
+      "total_tokens": 45896
+    }
+  },
+  {
+    "error": null,
+    "latency_ms": 6735,
+    "model": "qwen3.5-flash",
+    "pii": false,
+    "provider": "openai",
+    "steps": 2,
+    "tools_used": [
+      "check_stock",
+      "get_discount",
+      "calc_shipping"
+    ],
+    "usage": {
+      "completion_tokens": 695,
+      "prompt_tokens": 37168,
+      "total_tokens": 37863
+    }
+  },
+  {
+    "error": null,
+    "latency_ms": 7330,
+    "model": "qwen3.5-flash",
+    "pii": false,
+    "provider": "openai",
+    "steps": 3,
+    "tools_used": [
+      "check_stock",
+      "get_discount",
+      "calc_shipping"
+    ],
+    "usage": {
+      "completion_tokens": 795,
+      "prompt_tokens": 52384,
+      "total_tokens": 53179
+    }
+  },
+  {
+    "error": null,
+    "latency_ms": 12865,
+    "model": "qwen3.5-flash",
+    "pii": true,
+    "provider": "openai",
+    "steps": 3,
+    "tools_used": [
+      "check_stock",
+      "get_discount",
+      "calc_shipping"
+    ],
+    "usage": {
+      "completion_tokens": 1122,
+      "prompt_tokens": 56896,
+      "total_tokens": 58018
+    }
+  },
+  {
+    "error": null,
+    "latency_ms": 6882,
+    "model": "qwen3.5-flash",
+    "pii": false,
+    "provider": "openai",
+    "steps": 2,
+    "tools_used": [
+      "check_stock",
+      "get_discount",
+      "calc_shipping"
+    ],
+    "usage": {
+      "completion_tokens": 888,
+      "prompt_tokens": 38432,
+      "total_tokens": 39320
+    }
+  },
+  {
+    "error": null,
+    "latency_ms": 4942,
+    "model": "qwen3.5-flash",
+    "pii": true,
+    "provider": "openai",
+    "steps": 1,
+    "tools_used": [
+      "check_stock",
+      "get_discount"
+    ],
+    "usage": {
+      "completion_tokens": 551,
+      "prompt_tokens": 23752,
+      "total_tokens": 24303
+    }
+  },
+  {
+    "error": null,
+    "latency_ms": 6843,
+    "model": "qwen3.5-flash",
+    "pii": false,
+    "provider": "openai",
+    "steps": 2,
+    "tools_used": [
+      "check_stock",
+      "get_discount",
+      "calc_shipping"
+    ],
+    "usage": {
+      "completion_tokens": 749,
+      "prompt_tokens": 36136,
+      "total_tokens": 36885
+    }
+  },
+  {
+    "error": null,
+    "latency_ms": 6872,
+    "model": "qwen3.5-flash",
+    "pii": true,
+    "provider": "openai",
+    "steps": 2,
+    "tools_used": [
+      "check_stock",
+      "calc_shipping"
+    ],
+    "usage": {
+      "completion_tokens": 765,
+      "prompt_tokens": 37784,
+      "total_tokens": 38549
+    }
+  },
+  {
+    "error": null,
+    "latency_ms": 4971,
+    "model": "qwen3.5-flash",
+    "pii": true,
+    "provider": "openai",
+    "steps": 1,
+    "tools_used": [
+      "check_stock"
+    ],
+    "usage": {
+      "completion_tokens": 506,
+      "prompt_tokens": 22960,
+      "total_tokens": 23466
+    }
+  },
+  {
+    "error": null,
+    "latency_ms": 3566,
+    "model": "qwen3.5-flash",
+    "pii": true,
+    "provider": "openai",
+    "steps": 1,
+    "tools_used": [
+      "check_stock"
+    ],
+    "usage": {
+      "completion_tokens": 301,
+      "prompt_tokens": 23120,
+      "total_tokens": 23421
+    }
+  },
+  {
+    "error": null,
+    "latency_ms": 3813,
+    "model": "qwen3.5-flash",
+    "pii": false,
+    "provider": "openai",
+    "steps": 1,
+    "tools_used": [
+      "check_stock"
+    ],
+    "usage": {
+      "completion_tokens": 339,
+      "prompt_tokens": 22656,
+      "total_tokens": 22995
+    }
+  },
+  {
+    "error": null,
+    "latency_ms": 5680,
+    "model": "qwen3.5-flash",
+    "pii": false,
+    "provider": "openai",
+    "steps": 2,
+    "tools_used": [
+      "check_stock",
+      "get_discount",
+      "calc_shipping"
+    ],
+    "usage": {
+      "completion_tokens": 510,
+      "prompt_tokens": 37168,
+      "total_tokens": 37678
+    }
+  },
+  {
+    "error": null,
+    "latency_ms": 8333,
+    "model": "qwen3.5-flash",
+    "pii": false,
+    "provider": "openai",
+    "steps": 2,
+    "tools_used": [
+      "check_stock",
+      "get_discount",
+      "calc_shipping"
+    ],
+    "usage": {
+      "completion_tokens": 1026,
+      "prompt_tokens": 42016,
+      "total_tokens": 43042
+    }
+  },
+  {
+    "error": null,
+    "latency_ms": 7761,
+    "model": "qwen3.5-flash",
+    "pii": false,
+    "provider": "openai",
+    "steps": 1,
+    "tools_used": [
+      "check_stock"
+    ],
+    "usage": {
+      "completion_tokens": 957,
+      "prompt_tokens": 22792,
+      "total_tokens": 23749
+    }
+  },
+  {
+    "error": null,
+    "latency_ms": 8512,
+    "model": "qwen3.5-flash",
+    "pii": false,
+    "provider": "openai",
+    "steps": 3,
+    "tools_used": [
+      "check_stock",
+      "get_discount",
+      "calc_shipping"
+    ],
+    "usage": {
+      "completion_tokens": 543,
+      "prompt_tokens": 49808,
+      "total_tokens": 50351
+    }
+  },
+  {
+    "error": null,
+    "latency_ms": 6549,
+    "model": "qwen3.5-flash",
+    "pii": false,
+    "provider": "openai",
+    "steps": 2,
+    "tools_used": [
+      "check_stock",
+      "get_discount",
+      "calc_shipping"
+    ],
+    "usage": {
+      "completion_tokens": 634,
+      "prompt_tokens": 36128,
+      "total_tokens": 36762
+    }
+  },
+  {
+    "error": null,
+    "latency_ms": 8122,
+    "model": "qwen3.5-flash",
+    "pii": false,
+    "provider": "openai",
+    "steps": 2,
+    "tools_used": [
+      "check_stock",
+      "get_discount",
+      "calc_shipping"
+    ],
+    "usage": {
+      "completion_tokens": 1003,
+      "prompt_tokens": 41968,
+      "total_tokens": 42971
+    }
+  },
+  {
+    "error": null,
+    "latency_ms": 6809,
+    "model": "qwen3.5-flash",
+    "pii": false,
+    "provider": "openai",
+    "steps": 2,
+    "tools_used": [
+      "check_stock",
+      "get_discount",
+      "calc_shipping"
+    ],
+    "usage": {
+      "completion_tokens": 646,
+      "prompt_tokens": 36128,
+      "total_tokens": 36774
+    }
+  },
+  {
+    "error": null,
+    "latency_ms": 8983,
+    "model": "qwen3.5-flash",
+    "pii": true,
+    "provider": "openai",
+    "steps": 1,
+    "tools_used": [
+      "check_stock",
+      "get_discount",
+      "calc_shipping"
+    ],
+    "usage": {
+      "completion_tokens": 1118,
+      "prompt_tokens": 24216,
+      "total_tokens": 25334
+    }
+  },
+  {
+    "error": null,
+    "latency_ms": 9052,
+    "model": "qwen3.5-flash",
+    "pii": true,
+    "provider": "openai",
+    "steps": 1,
+    "tools_used": [
+      "check_stock"
+    ],
+    "usage": {
+      "completion_tokens": 993,
+      "prompt_tokens": 23200,
+      "total_tokens": 24193
+    }
+  },
+  {
+    "error": null,
+    "latency_ms": 9244,
+    "model": "qwen3.5-flash",
+    "pii": true,
+    "provider": "openai",
+    "steps": 3,
+    "tools_used": [
+      "check_stock",
+      "get_discount",
+      "calc_shipping"
+    ],
+    "usage": {
+      "completion_tokens": 1214,
+      "prompt_tokens": 59560,
+      "total_tokens": 60774
+    }
+  },
+  {
+    "error": null,
+    "latency_ms": 9655,
+    "model": "qwen3.5-flash",
+    "pii": true,
+    "provider": "openai",
+    "steps": 3,
+    "tools_used": [
+      "check_stock",
+      "get_discount",
+      "calc_shipping"
+    ],
+    "usage": {
+      "completion_tokens": 1095,
+      "prompt_tokens": 56560,
+      "total_tokens": 57655
+    }
+  },
+  {
+    "error": null,
+    "latency_ms": 9860,
+    "model": "qwen3.5-flash",
+    "pii": false,
+    "provider": "openai",
+    "steps": 3,
+    "tools_used": [
+      "check_stock",
+      "get_discount",
+      "calc_shipping"
+    ],
+    "usage": {
+      "completion_tokens": 739,
+      "prompt_tokens": 50248,
+      "total_tokens": 50987
+    }
+  },
+  {
+    "error": null,
+    "latency_ms": 9262,
+    "model": "qwen3.5-flash",
+    "pii": false,
+    "provider": "openai",
+    "steps": 2,
+    "tools_used": [
+      "check_stock",
+      "get_discount",
+      "calc_shipping"
+    ],
+    "usage": {
+      "completion_tokens": 689,
+      "prompt_tokens": 36248,
+      "total_tokens": 36937
+    }
+  },
+  {
+    "error": null,
+    "latency_ms": 10523,
+    "model": "qwen3.5-flash",
+    "pii": true,
+    "provider": "openai",
+    "steps": 3,
+    "tools_used": [
+      "check_stock",
+      "get_discount",
+      "calc_shipping"
+    ],
+    "usage": {
+      "completion_tokens": 1395,
+      "prompt_tokens": 54880,
+      "total_tokens": 56275
+    }
+  },
+  {
+    "error": null,
+    "latency_ms": 9972,
+    "model": "qwen3.5-flash",
+    "pii": true,
+    "provider": "openai",
+    "steps": 3,
+    "tools_used": [
+      "check_stock",
+      "get_discount",
+      "calc_shipping"
+    ],
+    "usage": {
+      "completion_tokens": 1073,
+      "prompt_tokens": 53768,
+      "total_tokens": 54841
+    }
+  },
+  {
+    "error": null,
+    "latency_ms": 6817,
+    "model": "qwen3.5-flash",
+    "pii": true,
+    "provider": "openai",
+    "steps": 1,
+    "tools_used": [
+      "check_stock"
+    ],
+    "usage": {
+      "completion_tokens": 457,
+      "prompt_tokens": 23192,
+      "total_tokens": 23649
+    }
+  },
+  {
+    "error": null,
+    "latency_ms": 5325,
+    "model": "qwen3.5-flash",
+    "pii": false,
+    "provider": "openai",
+    "steps": 1,
+    "tools_used": [
+      "check_stock"
+    ],
+    "usage": {
+      "completion_tokens": 539,
+      "prompt_tokens": 22928,
+      "total_tokens": 23467
+    }
+  },
+  {
+    "error": null,
+    "latency_ms": 8138,
+    "model": "qwen3.5-flash",
+    "pii": false,
+    "provider": "openai",
+    "steps": 2,
+    "tools_used": [
+      "check_stock",
+      "get_discount",
+      "calc_shipping"
+    ],
+    "usage": {
+      "completion_tokens": 616,
+      "prompt_tokens": 36304,
+      "total_tokens": 36920
+    }
+  },
+  {
+    "error": null,
+    "latency_ms": 7151,
+    "model": "qwen3.5-flash",
+    "pii": false,
+    "provider": "openai",
+    "steps": 2,
+    "tools_used": [
+      "check_stock",
+      "get_discount",
+      "calc_shipping"
+    ],
+    "usage": {
+      "completion_tokens": 410,
+      "prompt_tokens": 35952,
+      "total_tokens": 36362
+    }
+  },
+  {
+    "error": null,
+    "latency_ms": 5645,
+    "model": "qwen3.5-flash",
+    "pii": false,
+    "provider": "openai",
+    "steps": 2,
+    "tools_used": [
+      "check_stock",
+      "calc_shipping"
+    ],
+    "usage": {
+      "completion_tokens": 481,
+      "prompt_tokens": 35848,
+      "total_tokens": 36329
+    }
+  },
+  {
+    "error": null,
+    "latency_ms": 4561,
+    "model": "qwen3.5-flash",
+    "pii": false,
+    "provider": "openai",
+    "steps": 1,
+    "tools_used": [
+      "check_stock"
+    ],
+    "usage": {
+      "completion_tokens": 436,
+      "prompt_tokens": 22232,
+      "total_tokens": 22668
+    }
+  },
+  {
+    "error": null,
+    "latency_ms": 7471,
+    "model": "qwen3.5-flash",
+    "pii": false,
+    "provider": "openai",
+    "steps": 2,
+    "tools_used": [
+      "check_stock",
+      "get_discount",
+      "calc_shipping"
+    ],
+    "usage": {
+      "completion_tokens": 824,
+      "prompt_tokens": 36176,
+      "total_tokens": 37000
+    }
+  },
+  {
+    "error": null,
+    "latency_ms": 14050,
+    "model": "qwen3.5-flash",
+    "pii": false,
+    "provider": "openai",
+    "steps": 2,
+    "tools_used": [
+      "check_stock",
+      "get_discount",
+      "calc_shipping"
+    ],
+    "usage": {
+      "completion_tokens": 1983,
+      "prompt_tokens": 43792,
+      "total_tokens": 45775
+    }
+  },
+  {
+    "error": null,
+    "latency_ms": 5770,
+    "model": "qwen3.5-flash",
+    "pii": false,
+    "provider": "openai",
+    "steps": 3,
+    "tools_used": [
+      "check_stock",
+      "get_discount",
+      "calc_shipping"
+    ],
+    "usage": {
+      "completion_tokens": 609,
+      "prompt_tokens": 41896,
+      "total_tokens": 42505
+    }
+  },
+  {
+    "error": null,
+    "latency_ms": 7030,
+    "model": "qwen3.5-flash",
+    "pii": true,
+    "provider": "openai",
+    "steps": 2,
+    "tools_used": [
+      "check_stock",
+      "calc_shipping"
+    ],
+    "usage": {
+      "completion_tokens": 762,
+      "prompt_tokens": 37688,
+      "total_tokens": 38450
+    }
+  },
+  {
+    "error": null,
+    "latency_ms": 9440,
+    "model": "qwen3.5-flash",
+    "pii": true,
+    "provider": "openai",
+    "steps": 2,
+    "tools_used": [
+      "check_stock",
+      "get_discount",
+      "calc_shipping"
+    ],
+    "usage": {
+      "completion_tokens": 920,
+      "prompt_tokens": 40608,
+      "total_tokens": 41528
+    }
+  },
+  {
+    "error": null,
+    "latency_ms": 7996,
+    "model": "qwen3.5-flash",
+    "pii": false,
+    "provider": "openai",
+    "steps": 2,
+    "tools_used": [
+      "check_stock",
+      "calc_shipping"
+    ],
+    "usage": {
+      "completion_tokens": 936,
+      "prompt_tokens": 40240,
+      "total_tokens": 41176
+    }
+  },
+  {
+    "error": null,
+    "latency_ms": 4534,
+    "model": "qwen3.5-flash",
+    "pii": false,
+    "provider": "openai",
+    "steps": 2,
+    "tools_used": [
+      "check_stock",
+      "get_discount",
+      "calc_shipping"
+    ],
+    "usage": {
+      "completion_tokens": 407,
+      "prompt_tokens": 35936,
+      "total_tokens": 36343
+    }
+  },
+  {
+    "error": null,
+    "latency_ms": 7931,
+    "model": "qwen3.5-flash",
+    "pii": false,
+    "provider": "openai",
+    "steps": 2,
+    "tools_used": [
+      "check_stock",
+      "get_discount",
+      "calc_shipping"
+    ],
+    "usage": {
+      "completion_tokens": 873,
+      "prompt_tokens": 42672,
+      "total_tokens": 43545
+    }
+  },
+  {
+    "error": null,
+    "latency_ms": 6628,
+    "model": "qwen3.5-flash",
+    "pii": true,
+    "provider": "openai",
+    "steps": 1,
+    "tools_used": [
+      "check_stock",
+      "get_discount"
+    ],
+    "usage": {
+      "completion_tokens": 565,
+      "prompt_tokens": 24008,
+      "total_tokens": 24573
+    }
+  },
+  {
+    "error": null,
+    "latency_ms": 9858,
+    "model": "qwen3.5-flash",
+    "pii": false,
+    "provider": "openai",
+    "steps": 2,
+    "tools_used": [
+      "check_stock",
+      "get_discount",
+      "calc_shipping"
+    ],
+    "usage": {
+      "completion_tokens": 988,
+      "prompt_tokens": 40816,
+      "total_tokens": 41804
+    }
+  },
+  {
+    "error": null,
+    "latency_ms": 6956,
+    "model": "qwen3.5-flash",
+    "pii": true,
+    "provider": "openai",
+    "steps": 2,
+    "tools_used": [
+      "check_stock",
+      "get_discount",
+      "calc_shipping"
+    ],
+    "usage": {
+      "completion_tokens": 772,
+      "prompt_tokens": 38112,
+      "total_tokens": 38884
+    }
+  },
+  {
+    "error": null,
+    "latency_ms": 5937,
+    "model": "qwen3.5-flash",
+    "pii": false,
+    "provider": "openai",
+    "steps": 2,
+    "tools_used": [
+      "check_stock",
+      "get_discount",
+      "calc_shipping"
+    ],
+    "usage": {
+      "completion_tokens": 692,
+      "prompt_tokens": 36912,
+      "total_tokens": 37604
+    }
+  },
+  {
+    "error": null,
+    "latency_ms": 8006,
+    "model": "qwen3.5-flash",
+    "pii": false,
+    "provider": "openai",
+    "steps": 3,
+    "tools_used": [
+      "check_stock",
+      "get_discount",
+      "calc_shipping"
+    ],
+    "usage": {
+      "completion_tokens": 978,
+      "prompt_tokens": 51128,
+      "total_tokens": 52106
+    }
+  },
+  {
+    "error": null,
+    "latency_ms": 8055,
+    "model": "qwen3.5-flash",
+    "pii": false,
+    "provider": "openai",
+    "steps": 2,
+    "tools_used": [
+      "check_stock",
+      "calc_shipping"
+    ],
+    "usage": {
+      "completion_tokens": 1089,
+      "prompt_tokens": 40664,
+      "total_tokens": 41753
+    }
+  }
+]
